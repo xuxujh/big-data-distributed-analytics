@@ -1,0 +1,17 @@
+data/lakehouse/raw_events/*
+!data/lakehouse/raw_events/.gitkeep
+data/lakehouse/curated_metrics/*
+!data/lakehouse/curated_metrics/.gitkeep
+*.duckdb
+*.duckdb.wal
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+.coverage
+dist/
+build/
+*.egg-info/
